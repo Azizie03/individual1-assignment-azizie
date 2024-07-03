@@ -1,0 +1,199 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background-color: #4c7581;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /
+}
+
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+.column.middle P{
+  text-align: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+  }
+  
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center {
+    flex: 1;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .fakeimg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fakeimg .image img {
+    max-width: 205px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .fakeimg .desc {
+    flex: 1;
+    
+  }
+  
+  .fakeimg .desc p {
+    margin: 0;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card h5 {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+
+  .row img{
+    width: 350px;
+    height: 450px;
+  }
+</style>
+<link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+
+
+<div class="header">
+  <h2>BIODATA</h2>
+</div>
+
+<div class="topnav">
+  <a href="index.html">HOME</a> 
+  <a href="education.html">EDUCATION</a>
+  <a href="biodata.html">BIODATA</a>
+  <a href="gallery.html">GALLERY</a>
+  <a href="experience.html">EXPERIENCE</a>
+</div>
+
+<div class="row">
+  <div class="column side" > <img src="PICTURE/jiji 1.jpg" alt="Jiji"></div>
+  <div class="column middle" >
+    <p>Name : AHMAD AZIZIE BIN NOR AZIMAN</p><br>
+      <P>Age : 21 years old</P><br>
+      <P>Address : 371 KAMPUNG SELISING, 16810 PASIR PUTEH, KELANTAN</P><br>
+      <P>Phone number : 011-69592317</P><br>
+      <P>Height :179 cm</P><br>
+      <P>Weight : 60 kg</P><br>
+
+
+  </div>
+  <div class="column side" > <img src="PICTURE/jiji 2.jpg" alt="Jiji"></div>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+  }
+  
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center {
+    flex: 1;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .fakeimg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fakeimg .image img {
+    max-width: 205px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .fakeimg .desc {
+    flex: 1;
+    
+  }
+  
+  .fakeimg .desc p {
+    margin: 0;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card h5 {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+
+  .row img{
+    width: 350px;
+    height: 450px;
+  }
